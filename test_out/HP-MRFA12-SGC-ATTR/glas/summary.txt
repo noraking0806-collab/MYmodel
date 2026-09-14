@@ -1,0 +1,15 @@
+HP-MRFA12-SGC-ATTR Test Summary
+========================================
+Dataset: GLAS
+Model: HP (DINO-S/8 + hidden positives + cluster probe + two-radius multi-receptive-field adapter + attraction-only sparse region-graph consistency, unsupervised)
+Checkpoint: D:\1.KAN\Unsupervised\MYmodel\train_out\HP-MRFA12-SGC-ATTR\glas\checkpoint_final.pth
+Samples: 80
+
+Pixel Accuracy           81.76%
+Background IoU           67.32%
+Gland IoU                68.59%
+Mean IoU                 67.96%
+Background Dice          79.44%
+Gland Dice               80.92%
+Mean Dice                80.18%
+Object Dice              61.83%

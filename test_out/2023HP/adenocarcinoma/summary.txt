@@ -1,0 +1,15 @@
+2023HP Test Summary
+========================================
+Dataset: ADENOCARCINOMA
+Model: HP (DINO-S/8 + hidden positives + cluster probe + baseline, unsupervised)
+Checkpoint: D:\1.KAN\Unsupervised\MYmodel\train_out\2023HP\adenocarcinoma\checkpoint_final.pth
+Samples: 159
+
+Pixel Accuracy           73.55%
+Background IoU           49.14%
+Gland IoU                63.31%
+Mean IoU                 56.22%
+Background Dice          63.17%
+Gland Dice               77.14%
+Mean Dice                70.15%
+Object Dice              68.72%

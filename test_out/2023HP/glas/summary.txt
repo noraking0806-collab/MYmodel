@@ -1,0 +1,15 @@
+2023HP Test Summary
+========================================
+Dataset: GLAS
+Model: HP (DINO-S/8 + hidden positives + cluster probe + baseline, unsupervised)
+Checkpoint: D:\1.KAN\Unsupervised\MYmodel\train_out\2023HP\glas\checkpoint_final.pth
+Samples: 80
+
+Pixel Accuracy           81.98%
+Background IoU           67.79%
+Gland IoU                69.49%
+Mean IoU                 68.64%
+Background Dice          79.83%
+Gland Dice               81.31%
+Mean Dice                80.57%
+Object Dice              64.71%

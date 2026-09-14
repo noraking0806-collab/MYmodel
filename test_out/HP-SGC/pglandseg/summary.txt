@@ -1,0 +1,15 @@
+HP-SGC Test Summary
+========================================
+Dataset: PGLANDSEG
+Model: HP (DINO-S/8 + hidden positives + cluster probe + sparse region-graph consistency, unsupervised)
+Checkpoint: D:\1.KAN\Unsupervised\MYmodel\train_out\HP-SGC\pglandseg\checkpoint_final.pth
+Samples: 500
+
+Pixel Accuracy           86.09%
+Background IoU           78.19%
+Gland IoU                67.39%
+Mean IoU                 72.79%
+Background Dice          86.91%
+Gland Dice               76.42%
+Mean Dice                81.66%
+Object Dice              63.47%

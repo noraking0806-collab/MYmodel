@@ -1,0 +1,15 @@
+HP-MRFA12-SGC Test Summary
+========================================
+Dataset: PGLANDSEG
+Model: HP (DINO-S/8 + hidden positives + cluster probe + two-radius multi-receptive-field adapter + sparse region-graph consistency, unsupervised)
+Checkpoint: D:\1.KAN\Unsupervised\MYmodel\train_out\HP-MRFA12-SGC\pglandseg\checkpoint_final.pth
+Samples: 500
+
+Pixel Accuracy           86.56%
+Background IoU           78.26%
+Gland IoU                67.90%
+Mean IoU                 73.08%
+Background Dice          86.86%
+Gland Dice               76.78%
+Mean Dice                81.82%
+Object Dice              61.85%

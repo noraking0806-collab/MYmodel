@@ -1,0 +1,15 @@
+HP-SGC Test Summary
+========================================
+Dataset: GLAS
+Model: HP (DINO-S/8 + hidden positives + cluster probe + sparse region-graph consistency, unsupervised)
+Checkpoint: D:\1.KAN\Unsupervised\MYmodel\train_out\HP-SGC\glas\checkpoint_final.pth
+Samples: 80
+
+Pixel Accuracy           83.25%
+Background IoU           70.55%
+Gland IoU                70.37%
+Mean IoU                 70.46%
+Background Dice          81.87%
+Gland Dice               82.19%
+Mean Dice                82.03%
+Object Dice              66.52%

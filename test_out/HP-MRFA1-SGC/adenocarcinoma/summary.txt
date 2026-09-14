@@ -1,0 +1,15 @@
+HP-MRFA1-SGC Test Summary
+========================================
+Dataset: ADENOCARCINOMA
+Model: HP (DINO-S/8 + hidden positives + cluster probe + dilation-1 receptive-field adapter + sparse region-graph consistency, unsupervised)
+Checkpoint: D:\1.KAN\Unsupervised\MYmodel\train_out\HP-MRFA1-SGC\adenocarcinoma\checkpoint_final.pth
+Samples: 159
+
+Pixel Accuracy           77.52%
+Background IoU           51.55%
+Gland IoU                69.38%
+Mean IoU                 60.46%
+Background Dice          65.17%
+Gland Dice               81.64%
+Mean Dice                73.41%
+Object Dice              74.52%

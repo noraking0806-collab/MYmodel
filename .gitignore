@@ -1,0 +1,43 @@
+# Python bytecode and test caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments and local configuration
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+
+# Editors and operating systems
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Model checkpoints and exported weights
+*.pth
+*.pt
+*.ckpt
+*.onnx
+
+# Generated prediction/visualization images (keep compact metrics and summaries)
+test_out/**/*.png
+
+# Local datasets and run logs
+data/
+datasets/
+runs/
+wandb/
+*.log
+
+# Local paper/provenance copies; cite or link these instead of redistributing them
+/2023HP.pdf
+/2023HP_extracted.txt

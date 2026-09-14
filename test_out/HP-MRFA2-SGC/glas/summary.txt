@@ -1,0 +1,15 @@
+HP-MRFA2-SGC Test Summary
+========================================
+Dataset: GLAS
+Model: HP (DINO-S/8 + hidden positives + cluster probe + dilation-2 receptive-field adapter + sparse region-graph consistency, unsupervised)
+Checkpoint: D:\1.KAN\Unsupervised\MYmodel\train_out\HP-MRFA2-SGC\glas\checkpoint_final.pth
+Samples: 80
+
+Pixel Accuracy           53.23%
+Background IoU           35.50%
+Gland IoU                37.18%
+Mean IoU                 36.34%
+Background Dice          48.15%
+Gland Dice               51.99%
+Mean Dice                50.07%
+Object Dice              28.25%

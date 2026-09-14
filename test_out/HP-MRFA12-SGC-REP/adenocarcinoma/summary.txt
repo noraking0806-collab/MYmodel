@@ -1,0 +1,15 @@
+HP-MRFA12-SGC-REP Test Summary
+========================================
+Dataset: ADENOCARCINOMA
+Model: HP (DINO-S/8 + hidden positives + cluster probe + two-radius multi-receptive-field adapter + repulsion-only sparse region-graph consistency, unsupervised)
+Checkpoint: D:\1.KAN\Unsupervised\MYmodel\train_out\HP-MRFA12-SGC-REP\adenocarcinoma\checkpoint_final.pth
+Samples: 159
+
+Pixel Accuracy           75.59%
+Background IoU           49.54%
+Gland IoU                66.91%
+Mean IoU                 58.22%
+Background Dice          63.55%
+Gland Dice               79.87%
+Mean Dice                71.71%
+Object Dice              71.94%

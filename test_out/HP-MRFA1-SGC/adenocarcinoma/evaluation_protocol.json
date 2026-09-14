@@ -1,0 +1,10 @@
+{
+  "metric_resolution": "original",
+  "checkpoint": "D:\\1.KAN\\Unsupervised\\MYmodel\\train_out\\HP-MRFA1-SGC\\adenocarcinoma\\checkpoint_final.pth",
+  "dataset": "adenocarcinoma",
+  "pipeline": "HP-MRFA1-SGC",
+  "profile_role": "single_branch_ablation",
+  "split": "test",
+  "input_size": 224,
+  "object_dice_definition": "classic_glas_bidirectional_area_weighted_8_connected"
+}

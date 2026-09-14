@@ -1,0 +1,10 @@
+{
+  "metric_resolution": "original",
+  "checkpoint": "D:\\1.KAN\\Unsupervised\\MYmodel\\train_out\\2023HP\\glas\\checkpoint_final.pth",
+  "dataset": "glas",
+  "pipeline": "2023HP",
+  "profile_role": "main_comparison",
+  "split": "test",
+  "input_size": 224,
+  "object_dice_definition": "classic_glas_bidirectional_area_weighted_8_connected"
+}

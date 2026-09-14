@@ -1,0 +1,15 @@
+HP-MRFA12 Test Summary
+========================================
+Dataset: ADENOCARCINOMA
+Model: HP (DINO-S/8 + hidden positives + cluster probe + two-radius multi-receptive-field adapter, unsupervised)
+Checkpoint: D:\1.KAN\Unsupervised\MYmodel\train_out\HP-MRFA12\adenocarcinoma\checkpoint_final.pth
+Samples: 159
+
+Pixel Accuracy           76.52%
+Background IoU           48.93%
+Gland IoU                68.96%
+Mean IoU                 58.94%
+Background Dice          63.02%
+Gland Dice               81.34%
+Mean Dice                72.18%
+Object Dice              72.91%

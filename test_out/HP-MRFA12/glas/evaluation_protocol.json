@@ -1,0 +1,10 @@
+{
+  "metric_resolution": "original",
+  "checkpoint": "D:\\1.KAN\\Unsupervised\\MYmodel\\train_out\\HP-MRFA12\\glas\\checkpoint_final.pth",
+  "dataset": "glas",
+  "pipeline": "HP-MRFA12",
+  "profile_role": "single_module_ablation",
+  "split": "test",
+  "input_size": 224,
+  "object_dice_definition": "classic_glas_bidirectional_area_weighted_8_connected"
+}

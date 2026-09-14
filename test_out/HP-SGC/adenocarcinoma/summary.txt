@@ -1,0 +1,15 @@
+HP-SGC Test Summary
+========================================
+Dataset: ADENOCARCINOMA
+Model: HP (DINO-S/8 + hidden positives + cluster probe + sparse region-graph consistency, unsupervised)
+Checkpoint: D:\1.KAN\Unsupervised\MYmodel\train_out\HP-SGC\adenocarcinoma\checkpoint_final.pth
+Samples: 159
+
+Pixel Accuracy           73.68%
+Background IoU           48.63%
+Gland IoU                63.37%
+Mean IoU                 56.00%
+Background Dice          62.80%
+Gland Dice               77.27%
+Mean Dice                70.04%
+Object Dice              68.89%

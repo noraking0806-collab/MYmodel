@@ -1,0 +1,38 @@
+{
+  "metric_resolution": "original",
+  "dataset": "pglandseg",
+  "pipeline": "2023HP",
+  "profile_role": "main_comparison",
+  "parameter_policy": "2023HP retains the original HP objective and DINO-S/8 backbone; Adenocarcinoma/Glas use 224 and PGlandSeg uses 448",
+  "dataset_input_size": 448,
+  "dataset_context": {
+    "train_images": 800,
+    "native_geometry": "1500x1500"
+  },
+  "resolved_adapter_arguments": {
+    "mode": "train",
+    "dataset": "pglandseg",
+    "data_root": "D:\\1.KAN\\data",
+    "device": "cuda",
+    "patch_size": "8",
+    "dim": "512",
+    "temperature": "0.8",
+    "alpha": "0.05",
+    "rho": "0.02",
+    "ema_m": "0.99",
+    "weight_decay": "0.1",
+    "seed": "42",
+    "amp": true,
+    "input_size": "448",
+    "batch_size": "2",
+    "epochs": "60",
+    "pool_size": "2048",
+    "renew_interval": "100",
+    "learning_rate": "0.0005",
+    "cluster_learning_rate": "0.005",
+    "patience": "10",
+    "dino_checkpoint": "D:\\1.KAN\\Unsupervised\\MYmodel\\dino_deitsmall8_300ep_pretrain.pth",
+    "output_dir": "D:\\1.KAN\\Unsupervised\\MYmodel\\train_out\\2023HP\\pglandseg",
+    "metric_resolution": "original"
+  }
+}

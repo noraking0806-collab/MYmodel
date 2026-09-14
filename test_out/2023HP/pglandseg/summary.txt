@@ -1,0 +1,15 @@
+2023HP Test Summary
+========================================
+Dataset: PGLANDSEG
+Model: HP (DINO-S/8 + hidden positives + cluster probe + baseline, unsupervised)
+Checkpoint: D:\1.KAN\Unsupervised\MYmodel\train_out\2023HP\pglandseg\checkpoint_final.pth
+Samples: 500
+
+Pixel Accuracy           85.40%
+Background IoU           76.73%
+Gland IoU                65.94%
+Mean IoU                 71.33%
+Background Dice          86.02%
+Gland Dice               75.39%
+Mean Dice                80.70%
+Object Dice              59.24%

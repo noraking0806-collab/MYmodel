@@ -1,0 +1,15 @@
+HP-MRFA12 Test Summary
+========================================
+Dataset: GLAS
+Model: HP (DINO-S/8 + hidden positives + cluster probe + two-radius multi-receptive-field adapter, unsupervised)
+Checkpoint: D:\1.KAN\Unsupervised\MYmodel\train_out\HP-MRFA12\glas\checkpoint_final.pth
+Samples: 80
+
+Pixel Accuracy           81.44%
+Background IoU           67.39%
+Gland IoU                67.95%
+Mean IoU                 67.67%
+Background Dice          79.35%
+Gland Dice               80.46%
+Mean Dice                79.90%
+Object Dice              62.29%
